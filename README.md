@@ -2,7 +2,8 @@
 Beräkningar av pensionsrätter
 
 ## Innehåll
-Kod för att beräkna pensionsrätter för:
-* Ålderspensionsavgift
-* Allmän pensionsavgift
-* Arbetsgivaravgift och egenavgift
+Kod för att beräkna:
+* Summering av pensionsrätter
+* Fördelning av pensionsrätter till:
+ * Inkomstpension
+ * Premiepension
