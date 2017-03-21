@@ -8,3 +8,8 @@ arbetsgivaravgift_och_egenavgift=$(cat ${INPUT}/arbetsgivaravgift_och_egenavgift
 res=$(echo "scale=0; (${alderspensionsavgift} + ${allman_pensionsavgift} + ${arbetsgivaravgift_och_egenavgift}) / 1" | bc -l)
 echo ${res} > output/pensionsratter.txt
 
+# Fordelning mellan Premiepension och Inkomstpension
+export PREMIEPENSION=0.135
+export INKOMSTPENSION=0.865
+echo ${PREMIEPENSION} > output/premiepension.txt
+echo ${INKOMSTPENSION} > output/inkomstpension.txt
