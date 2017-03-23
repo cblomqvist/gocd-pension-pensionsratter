@@ -9,7 +9,7 @@ res=$(echo "scale=0; (${alderspensionsavgift} + ${allman_pensionsavgift} + ${arb
 echo ${res} > output/pensionsratter.txt
 
 # Fordelning mellan Premiepension och Inkomstpension
-export PREMIEPENSION=0.135
-export INKOMSTPENSION=0.865
+export PREMIEPENSION=0.235
+export INKOMSTPENSION=0.765
 echo ${PREMIEPENSION} > output/premiepension.txt
 echo ${INKOMSTPENSION} > output/inkomstpension.txt
